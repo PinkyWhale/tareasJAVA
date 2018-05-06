@@ -1,9 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ej7;
+
+import java.util.Scanner;
 
 /**
  *
@@ -11,11 +9,19 @@ package ej7;
  */
 public class Ej7 {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Ingrese un numero: ");
+        Scanner numeroScan = new Scanner(System.in);
+        
+        int numero = numeroScan.nextInt();
+        
+        System.out.println("================================================");
+        
+        for (int pollo = 0; pollo < 12; pollo++) {
+            int cuenta = numero * (pollo+1);
+            System.out.println( numero + "X" + (pollo+1) + "=" + cuenta );
+        }
     }
     
 }
