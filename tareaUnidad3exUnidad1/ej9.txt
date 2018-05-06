@@ -1,0 +1,22 @@
+Le damos un nombre "Alumnos" a la clase
+
+public class Alumnos{
+	//Atributos de la clase
+	private String nombre;
+	private int edad;
+	private float promedio;
+
+	//Constructor con el mismo nombre de la clase
+	public Alumnos(){}
+
+	//Métodos de la clase
+	public void calificacion()
+	{
+		//Método calificacion
+	}
+
+	public String regularidad()
+	{
+		return regularidad;
+	}
+}
